@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Olumide! 🎉</title>
+    <link rel="icon" href="/file_00000000b2c871fbb0c5e31063aef7d2.png" />
+    <link rel="stylesheet" href="olu.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- ========== MUSIC BUTTON ========== -->
+    <button class="music-btn" id="musicBtn" title="Toggle Party Music">
+      🎵
+    </button>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="stars" id="stars"></div>
+      <div class="balloons" id="balloons"></div>
+
+      <p class="hero-tag">🎉 It's That Special Day 🎉</p>
+      <h1 class="hero-title">Happy Birthday</h1>
+      <h2 class="hero-name">Olumide!</h2>
+      <p class="hero-date">✨ March 14 ✨</p>
+    </section>
+
+    <!-- ========== CURRENT PHOTO ========== -->
+    <section class="photo-section">
+      <p class="section-label reveal">📸 The Man Himself</p>
+      <h2 class="section-title reveal">Looking Good, Bro!</h2>
+
+      <div class="photo-grid">
+        <div class="photo-card reveal" style="aspect-ratio: 3/4">
+          <img
+            class="photo-placeholder"
+            src="/IMG-20250108-WA0007.jpg"
+            alt="Olumide"
+          />
+          <div class="photo-badge">🌟 The Birthday Boy</div>
+        </div>
+
+        <div
+          class="video-card reveal"
+          style="grid-row: unset; min-height: unset; aspect-ratio: 3/4"
+        >
+          <video
+            class="video-placeholder"
+            src="/lv_7512888470646312253_20260312075026.mp4"
+            controls
+            poster="/file_00000000b2c871fbb0c5e31063aef7d2.png"
+          ></video>
+
+          <div class="video-badge">🎬 Birthday Reel</div>
+        </div>
+
+        <div class="photo-card reveal" style="aspect-ratio: 3/4">
+          <img
+            class="photo-placeholder"
+            src="/IMG-20241226-WA0023.jpg"
+            alt="Olumide"
+          />
+          <div class="photo-badge">✨ Vibing</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== THROWBACK STRIP ========== -->
+    <section class="throwback-section">
+      <p class="section-label">📼 Throwback</p>
+      <h2 class="section-title">Memory Lane 🛤️</h2>
+
+      <div class="throwback-strip" id="throwbackStrip">
+        <!-- Card 1 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/1773167447411.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+
+          <div class="tb-label">Then 🕰️</div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/1773214609609.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+          <div class="tb-label">Growing Up ✨</div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/WhatsApp Image 2026-03-12 at 18.55.56.jpeg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+
+          <div class="tb-label">Good Times 🎉</div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/FB_IMG_1773297039846.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+
+          <div class="tb-label">Back Then 🌈</div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/FB_IMG_1773297147143.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+
+          <div class="tb-label">Legend 👑</div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/FB_IMG_1773297130259.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+
+          <div class="tb-label">Classic! 😄</div>
+        </div>
+
+        <!-- Duplicate for seamless loop -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/1773167447411.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+
+          <div class="tb-label">Then 🕰️</div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/1773214609609.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+          <div class="tb-label">Growing Up ✨</div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/WhatsApp Image 2026-03-12 at 18.55.56.jpeg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+
+          <div class="tb-label">Good Times 🎉</div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/FB_IMG_1773297039846.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+
+          <div class="tb-label">Back Then 🌈</div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/FB_IMG_1773297147143.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+
+          <div class="tb-label">Legend 👑</div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="tb-card">
+          <img
+            class="tb-placeholder"
+            src="/FB_IMG_1773297130259.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+
+          <div class="tb-label">Classic! 😄</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FUN FACTS ========== -->
+    <section class="facts-section">
+      <p class="section-label reveal">🌟 About the Birthday Boy</p>
+      <h2 class="section-title reveal">Things We Love About Olumide</h2>
+
+      <div class="facts-grid">
+        <div class="fact-card reveal">
+          <span class="fact-emoji">👑</span>
+          <p class="fact-text">
+            The kind of person who walks into a room and owns it without even
+            trying. That's Olumide energy.
+          </p>
+        </div>
+        <div class="fact-card reveal">
+          <span class="fact-emoji">😂</span>
+          <p class="fact-text">
+            His laugh is contagious — you can never stay serious around him for
+            too long.
+          </p>
+        </div>
+        <div class="fact-card reveal">
+          <span class="fact-emoji">💪</span>
+          <p class="fact-text">
+            He doesn't just talk — he shows up, puts in the work, and delivers
+            every single time.
+          </p>
+        </div>
+        <div class="fact-card reveal">
+          <span class="fact-emoji">🎯</span>
+          <p class="fact-text">
+            Always knows what he wants. Zero wavering. A man of goals and
+            vision.
+          </p>
+        </div>
+        <div class="fact-card reveal">
+          <span class="fact-emoji">❤️</span>
+          <p class="fact-text">
+            Big heart. Bigger loyalty. The kind of brother you'd pick even if
+            you had a choice.
+          </p>
+        </div>
+        <div class="fact-card reveal">
+          <span class="fact-emoji">🚀</span>
+          <p class="fact-text">
+            Every year he levels up. By the time he's done — the whole world
+            will know the name Olumide.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WISH ========== -->
+    <section class="wish-section">
+      <h2 class="wish-text reveal">
+        May this year bring you everything you've worked for, everything you've
+        prayed for, and more than you could ever imagine. 🎂
+      </h2>
+      <p class="wish-sub reveal">
+        Happy Birthday, Olumide. You deserve every single good thing coming your
+        way. We celebrate you today and always! 🥂
+      </p>
+      <button class="cta-btn" onclick="launchConfetti()">
+        🎉 Pop the Confetti!
+      </button>
+    </section>
+
+    <footer>Built with love by <strong>OHYEE Tech</strong> © 2026 🎂</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
